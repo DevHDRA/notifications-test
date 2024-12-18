@@ -21,8 +21,8 @@ function App() {
     if (Notification.permission === "granted") {
       const noti = new Notification("SUMADI NOTIFICATIONS", {
         body: "Your are not allowed to out focus your exam",
-        icon: "/icon.svg", // Asegúrate de agregar este ícono en la carpeta public
-        image: "/noti-image.svg",
+        icon: "https://www.svgrepo.com/show/13658/error.svg", // Asegúrate de agregar este ícono en la carpeta public
+        image: "https://www.svgrepo.com/show/470286/warning-alt-2.svg",
       });
 
       noti.onclick = () => {
